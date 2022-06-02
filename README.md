@@ -1,6 +1,8 @@
-# Website
+# Orient-me website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+[![Deploy to GitHub Pages](https://github.com/orient-me/orient-me.github.io/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/orient-me/orient-me.github.io/actions/workflows/deploy.yml)
+
+We are using [Docusaurus 2](https://docusaurus.io/).
 
 ### Installation
 
@@ -24,18 +26,6 @@ $ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Deployment
+### Contribute
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+We are open to any contribution. If you want to improve the website, just fork and submit a pull request :-) !
